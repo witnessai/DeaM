@@ -2,7 +2,7 @@
   <img src="assets/DeaM.jpeg" width="30%" alt="logo"/>
 </p>
 
-# Decomposition of Graphic Design with Unified Multimodal Model (ICML2025)
+## Decomposition of Graphic Design with Unified Multimodal Model
 
 <h4 align="center">
     Hui Nie<sup>1</sup>&emsp;
@@ -25,7 +25,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/ICML-Paper-blue)](https://openreview.net/pdf?id=7SG4s8d8AQ)
+[![Paper](https://img.shields.io/badge/ICML25-Paper-blue)](https://openreview.net/pdf?id=7SG4s8d8AQ)
 
 </div>
 
@@ -33,27 +33,27 @@
 ## Introduction
 We introduce a new task, Layer Decomposition of Graphic Designs (LDGD), which involves decomposing a composite image into multiple layers (including the background, primary imagery, atmosphere graphics, text, etc.) in a logical layer order.
 
-<p align="center"> <img src="assets/teaser.png" alt="deam_teaser" style="zoom: 80%;" /></p>
+<p align="center"> <img src="assets/teaser.png" alt="deam_teaser" width="100%" /></p>
 
 
 **DeaM** Pipeline. The training process of DeaM consists of three phases: (1) VQ-GAN Training: Train an RGB-A VQ-GAN, then use it to encode all image layers with ”quant” annotations. (2) Instruction Tuning: Train DeaM to generate detailed image descriptions (metadata), performing layer decomposition tasks including element positions, layer order, indices in the VQ-GAN codebook, and so on. (3) Decoder Training: Train a condition-aware RGB-A decoder using ResNet as the condition encoder, keeping the VQ encoder frozen.
 
-<p align="center"> <img src="assets/pipeline.png" alt="deam_pipeline" style="zoom: 80%;" /></p>
+<p align="center"> <img src="assets/pipeline.png" alt="deam_pipeline" width="100%" /></p>
 
 ## Experiments
 
-<p align="center"> 
-<img src="assets/crello_exp.png" alt="crello_exp" style="zoom: 80%;" />
+<p align="center" style="border-radius: 10px">
+  <img src="assets/crello_exp.png" width="100%" alt="logo"/>
 <strong>Layer decomposition results of DeaM on the Crello dataset.</strong>
 </p>
 
-<p align="center"> 
-<img src="assets/exp2.png" alt="exp2" style="zoom: 80%;" />
+<p align="center" style="border-radius: 10px">
+  <img src="assets/exp2.png" width="100%" alt="logo"/>
 <strong>Results of point-guided and text-guided layer decomposition.</strong>
 </p>
 
-<p align="center"> 
-<img src="assets/exp3.png" alt="exp3" style="zoom: 80%;" />
+<p align="center" style="border-radius: 10px">
+  <img src="assets/exp3.png" width="100%" alt="logo"/>
 <strong>Comparison with Image Vectorization Method.</strong>
 </p>
 
