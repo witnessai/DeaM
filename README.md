@@ -2,7 +2,7 @@
   <img src="assets/DeaM.jpeg" width="30%" alt="logo"/>
 </p>
 
-## Decomposition of Graphic Design with Unified Multimodal Model
+<h2 align="center">Decomposition of Graphic Design with Unified Multimodal Model</h2>
 
 <h4 align="center">
     Hui Nie<sup>1</sup>&emsp;
