@@ -26,7 +26,7 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/ICML25-Paper-blue)](https://openreview.net/pdf?id=7SG4s8d8AQ)
-
+![Visitors](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fwitnessai%2FDeaM&label=Visitors&icon=people&color=%23a9195c)
 </div>
 
 
